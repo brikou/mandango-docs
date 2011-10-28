@@ -134,7 +134,7 @@ Collection
 ----------
 
 You can also obtain the mongo collection to perform operations directly
-with the ``->getConnection()`` method::
+with the ``->getCollection()`` method::
 
     $collection = \Model\Article::getRepository()->getCollection();
 
