@@ -6,6 +6,24 @@ The MandangoBundle is the bundle to use Mandango with Symfony2_.
 Installation
 ------------
 
+Add the required dependencies in your deps file the run `./bin/vendor install`
+
+    //...
+
+    [mondator]
+        git=http://github.com/mandango/mondator.git
+
+    [mandango]
+        git=http://github.com/mandango/mandango.git
+
+    [MandangoBundle]
+        git=http://github.com/mandango/MandangoBundle
+        target=/bundles/Mandango/MandangoBundle
+
+    //...
+
+If you prefer you can install MandangoBundle as submodules to...
+
 Add Mandango and Mondator to your vendors:
 
 .. code-block:: bash
